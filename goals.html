@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/mentor.css">
+  <link rel="stylesheet" type="text/css" href="css/mentor2.css">
+  <title>aa</title>
+
+<body>
+  <header>
+    <div id="content">
+      <div class="content-header">
+        <nav class="navbar">
+          <ul class="items">
+            <li id="item1"><a href="mentor2.html">home</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <h1>some functions are:</h1>
+  <ul>
+    <li>to motivate young people to work hard</li>
+    <li>to provide job</li>
+    <li>to enhance technology</li>
+  </ul>
+  <div class="contact">
+    <h2> fill the form to give your opinions</h2>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Email">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Rwanda">Rwanda</option>
+      <option value="RDC">RDC</option>
+      <option value="Uganda">Uganda</option>
+    </select>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+    <input type="submit" value="Submit" onclick="messagess()">
+    </form>
+  </div>
+
+  <div id="footer">
+    <footer class="footer">
+      <a href="mentor2.html">
+        <p class="footercontent">free mentors here welcome</p>
+      </a></footer>
+  </div>
+  <script>
+    const messagess = () => {
+      const a = document.getElementById("subject").value;
+      if (a == '') {
+        alert("write any  message ")
+      }
+      else {
+        alert("your message was delivered")
+      }
+    }
+  </script>
+</body>
+
+</html>

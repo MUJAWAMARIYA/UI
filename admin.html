@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/mentor.css">
+  <link rel="stylesheet" type="text/css" href="css/mentor2.css">
+  <title> ladmin</title>
+</head>
+
+<body>
+  <header>
+    <div id="content">
+      <div class="content-header">
+        <nav class="navbar">
+          <ul class="items">
+            <ul class="items">
+              <li id="item1"><a href="mentor2.html">home</a></li>
+              <li class="items1"><a href="specific_mentors.html"> view mentors</a></li>
+              <li class="items1"><a href="users.html">users</a></li>
+              <li class="items1"><a href="pagecontent.html"> all pages</a></li>
+              <li class="items1"><a href="help.html">help</a></li>
+
+            </ul>
+        </nav>
+      </div>
+  </header>
+  <h1> admin can change a user to a mentor</h1>
+  <div class="p">
+    <p> admin is aperson responsible and control<br> the whole system and provide manageble action.<br> also he/she has
+      to make any changes required.</p>
+    <P> Admin has the right to change a user to mentor.</P>
+    <p> Admin can delete a review deemed as inappropriate</p>
+
+  </div>
+  <input type="text" name="display" id="display">
+  <input type="text" name="display" id="displays"><br>
+  <input type="submit" value="change  a user to a mentor" class="btn" onclick="change()">
+  <input type="submit" value="delete a review deemed" class="btn" onclick="deleted()">
+  <div id="footer">
+    <footer class="footer">
+      <a href="pagecontent.html">
+        <p class="footercontent">free mentors here welcome</p>
+      </a></footer>
+  </div>
+
+  <script>
+    const change = () => {
+      document.getElementById("display").value += "Change a user to mentor Done"
+    }
+    const deleted = () => {
+      document.getElementById("displays").value += "a review deemed as inappropriate was deleted"
+    }
+  </script>
+</body>
+
+</html>

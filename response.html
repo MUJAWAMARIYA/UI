@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/mentor2.css">
+    <link rel="stylesheet" type="text/css" href="css/mentor.css">
+    <title>overview</title>
+
+</head>
+
+<body>
+  
+
+        <header>
+
+                <div id="content">
+                        <div class="content-header">
+                          <nav class="navbar">
+                            <ul class="items">
+                    <li class="item1"><a href="mentor2.html">home</a></li>
+                </ul>
+            </nav>
+            </div>
+            </div>
+        </header>
+        <h2> mentors can accept or decline user requests</h2>
+        <br>
+        <input type="text" name="display"  id="display">
+        <input type="text" name="displays"  id="displays">
+        <br>
+        <input type="button" value="accept  requsts" class="btn" onclick="accepts()">
+        <input type="button" value="decline requests" class="btn" onclick="decline()">
+
+
+        <div id="footer">
+            <footer class="footer">
+                <a href="footer.html">
+                    <p class="footercontent">free mentors here welcome</p>
+                </a></footer>
+        </div>
+
+        <script>
+                const accepts=()=>{
+                  document.getElementById("displays").value +="request was accepted"
+
+                }
+                const decline=()=>{
+                    document.getElementById("display").value +="request was denied"
+                }
+               
+          
+                </script>
+</body>
+
+</html>

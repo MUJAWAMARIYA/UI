@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/mentor.css">
+  <link rel="stylesheet" type="text/css" href="css/mentor2.css">
+  <title>mentor page</title>
+
+<body>
+  <header>
+
+    <nav class="navbar">
+      <ul class="items">
+        <li class="item1"><a href="mentor2.html">home</a></li>
+        <li class="items1"><a href="sessionresponse.html">mentor response</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="annes">
+    <h2> fill the form to address any <br>request to this mentor</h2>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Email">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Rwanda">Rwanda</option>
+      <option value="RDC">RDC</option>
+      <option value="Uganda">Uganda</option>
+    </select>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+    <input type="submit" value="Submit" onclick="messagess()">
+    </form>
+  </div>
+  <div class="anness">
+    <h1> more about this mentor</h1>
+
+    <table class="anne">
+      <tr>
+        <th>all names</th>
+        <th>location</th>
+        <th>email</th>
+        <th>phone number</th>
+      </tr>
+      <tr>
+        <td>dusenge andre</td>
+        <td>musanze</td>
+        <td>mumarg015@gmail.com</td>
+        <td>0727635318</td>
+      </tr>
+
+    </table>
+    <div>
+      <p> this mentor is expert in giving asistance</p>
+      <h3>Mentor role and responsibilities</h3>
+
+      <p>mentors could do: <br>
+        <ol>
+          <li>Identify areas of expertise</li>
+          <li>Be receptive to developing a learning relationship with a mentee</li>
+          <li> Discuss expectations</li>
+          <li>give advices to people</li>
+          <li>Maintain confidentiality</li>
+          <li>Make yourself accessible for contact with mentee via preferred method of<br> communication (phone, email,
+            in person...)</li>
+          <li> Be honest and professional in interactions</li>
+          <li>Recognize when you may not be able to provide what the mentee needs <br>from the relationship and can
+            refer them to another mentor</li>
+          <li>Advocate and advisor</li>
+
+          <li> Help the mentee develop a supportive network of colleagues</li>
+          <li> for additional contact a and visit our web also <br> mentors to tell you more.</li>
+
+        </ol>
+      </p>
+    </div>
+  </div>
+
+  <div id="footer">
+    <footer class="footer">
+      <a href="pagecontent.html">
+        <p class="footercontent">free mentors here welcome</p>
+      </a></footer>
+  </div>
+  <script>
+    const messagess = () => {
+      const a = document.getElementById("subject").value;
+      if (a == '') {
+        alert("write any  message ")
+      }
+      else {
+        alert("your message was delivered")
+      }
+    }
+  </script>
+</body>
+
+</html>

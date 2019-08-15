@@ -1,0 +1,285 @@
+html {
+  position: relative;
+  width: 100%;
+}
+
+body {
+  background-color: #17011186;
+  
+}
+h1 {
+  margin-left: 15rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  color: #17011186;
+}
+.sign{
+  margin-left:55rem;
+}
+.sign .signin a {
+  font-size: 20px;
+}
+.sign .signup a {
+  font-size: 20px;
+}
+.listitems {
+  margin-left: 12rem;
+}
+a img {
+  width: 100%;
+  height: 250px;
+}
+table {
+  width: 40%;
+  background-color: #17011186;
+  padding-top: 2rem;
+  margin-right: 30rem;
+
+
+}
+
+.pa1 .table1 {
+  background-color: rgb(245, 228, 231);
+  width: 30%;
+}
+
+.mentors {
+
+  margin-left: 20rem;
+  margin-bottom: 4rem;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+
+}
+
+.mentor img {
+  width: 76%;
+  height: 280px;
+  margin-left: 11rem;
+  margin-bottom: 12rem;
+
+}
+
+.navbar a:hover {
+
+  background-color: #17011186;
+  height: 60px;
+  width: 100%;
+
+}
+
+.items li {
+  display: inline-block;
+  padding-left: 3rem;
+
+
+}
+
+.items a {
+
+  font-size: 25px;
+}
+
+.items1 a {
+  text-align: center;
+  padding-left: 2rem;
+}
+
+.desc {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma;
+}
+
+.side-item {
+
+  display: inline;
+
+}
+
+.side_menu {
+  margin-top: 1rem;
+}
+
+.form {
+  position: relative;
+  left: 6em;
+  bottom: 19rem;
+  width: 480px;
+  height: 50px;
+
+}
+
+.side-item>li>a {
+  text-decoration: none;
+  align-content: center;
+  margin-left: 10px;
+  font-size: 20px;
+  position: center;
+}
+
+.table1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.table a {
+  font-size: 26px;
+
+}
+
+.left {
+  float: left;
+  padding-left: 1rem;
+  font-size: 20px;
+}
+
+.right {
+  float: right;
+  padding-right: 1rem;
+}
+
+#pdf {
+  width: 100%;
+  height: 470px;
+}
+
+.btn {
+
+  width: 170px;
+  height: 60px;
+  color: peru;
+  font-size: 15px;
+  background-color: lightgray;
+  border: solid gray 1px;
+  border-radius: 5px;
+  margin-left: 2rem;
+}
+
+.comment {
+
+  width: 400px;
+  height: 80px;
+  color: white;
+  font-size: 15px;
+  background-color: burlywood;
+
+}
+.p {
+  font-size: 20px;
+  width: 70%;
+  height: auto;
+  margin-left: 5rem;
+  font-size: 20px;
+}
+.feedback {
+  font-size: 20px;
+  width: 40%;
+  height: auto;
+  margin-top: auto;
+
+}
+.mentorhelp1 {
+  width: 30%;
+  height: auto;
+  float: left;
+  background-color: burlywood;
+
+  margin-right: 3rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.mentorhelp2 {
+  width: 33%;
+  float: right;
+  height: auto;
+  padding-top: 2rem;
+  background-color: burlywood;
+  padding-left: 2rem;
+  padding-bottom: 4rem;
+}
+
+.mentorhelp3 {
+  width: 36%;
+  height: auto;
+  margin-left: 27.7rem;
+  padding-top: 2rem;
+  background-color: palevioletred;
+  padding-left: 2rem;
+  padding-bottom: 1.4rem;
+}
+
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10rem;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact {
+  width: 30%;
+  margin-left: 15rem;
+}
+
+#display {
+  width: 70%;
+  height: 100px;
+  ;
+  border-radius: 3rem;
+  margin-left: 2rem;
+}
+
+#displays {
+  width: 70%;
+  height: 100px;
+  border-radius: 3rem;
+  margin-left: 2rem;
+}
+
+.anne {
+  width: 40%;
+  height: 20px;
+  font-size: 18px;
+}
+
+#annes {
+  float: right;
+  width: 30%;
+  margin-right: 4rem;
+  font-size: 15px;
+}
+
+#anness {
+  float: left;
+  margin-left: 2rem;
+}
+#footerimg img{
+  margin-left: 20rem;
+  width: 20%;
+}
+#footercontents h2{
+
+  margin-left: 20rem;
+}
